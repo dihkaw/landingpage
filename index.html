@@ -3,88 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Nama Anda</title>
+    <title>Curriculum Vitae - Nama Anda</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
     <div class="container">
-        <!-- KIRI - PROFIL -->
-        <div class="left">
+        <aside class="sidebar">
             <div class="profile">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png" alt="Foto Profil">
+                <img src="https://www.spongebobshop.com/cdn/shop/products/SB-Standees-Spong-3_800x.jpg" alt="Foto Profil">
                 <h2>Nama Anda</h2>
-                <p>Business Consultant</p>
+                <p>Konsultan Bisnis</p>
             </div>
-
             <div class="contact">
-                <h3>Contact Me</h3>
-                <p><i class="fas fa-phone"></i> (323) 302-9912</p>
-                <p><i class="fas fa-envelope"></i> info@jamesjohnson.site.com</p>
-                <p><i class="fas fa-map-marker-alt"></i> 1676 Kimberly Drive, Chicago, IL</p>
+                <h3>Kontak</h3>
+                <p>📞 (123) 456-7890</p>
+                <p>✉ info@email.com</p>
+                <p>📍 Jakarta, Indonesia</p>
             </div>
-
             <div class="skills">
-                <h3>Skills</h3>
+                <h3>Keterampilan</h3>
                 <ul>
-                    <li>Strategic Planning</li>
-                    <li>Business Development</li>
-                    <li>Market Analysis</li>
-                    <li>Process Improvement</li>
-                    <li>Client Relationship Management</li>
+                    <li>Perencanaan Strategis</li>
+                    <li>Pengembangan Bisnis</li>
+                    <li>Analisis Pasar</li>
+                    <li>Manajemen Klien</li>
+                    <li>Perbaikan Proses</li>
                 </ul>
             </div>
-
-            <div class="certification">
-                <h3>Certification</h3>
+            <div class="certifications">
+                <h3>Sertifikasi</h3>
                 <ul>
                     <li>Certified Management Consultant (CMC)</li>
                     <li>Project Management Professional (PMP)</li>
                     <li>Six Sigma Green Belt</li>
                 </ul>
             </div>
-        </div>
+        </aside>
 
-        <!-- KANAN - INFORMASI -->
-        <div class="right">
-            <h1>Nama <span style="color: #c79b53;">Anda</span></h1>
-            <h3>Business Consultant</h3>
+        <main class="content">
+            <section class="intro">
+                <h1>Curriculum Vitae</h1>
+                <p>Seorang Konsultan Bisnis yang dinamis dan berorientasi pada hasil dengan rekam jejak yang kuat dalam mendorong pertumbuhan bisnis dan mengoptimalkan operasi untuk berbagai industri.</p>
+            </section>
 
-            <div class="summary">
-                <p>Dynamic and results-oriented Business Consultant with a proven track record of driving growth and optimizing operations for diverse businesses.</p>
-            </div>
+            <section class="experience">
+                <h2>Pengalaman</h2>
 
-            <div class="experience">
-                <h2>Experience</h2>
                 <div class="job">
-                    <h3>Business Consultant <span>20XX - 20XX</span></h3>
-                    <p>At Kinsley Lyons Company</p>
+                    <h3>Konsultan Bisnis <span>20XX - Sekarang</span></h3>
+                    <p><strong>Kinsley Lyons Company</strong></p>
                     <ul>
-                        <li>Advised clients on strategic planning and business development.</li>
-                        <li>Provided financial management guidance.</li>
+                        <li>Memberikan saran strategis kepada klien dalam perencanaan bisnis dan analisis pasar.</li>
+                        <li>Membantu pengembangan strategi pertumbuhan bisnis.</li>
                     </ul>
                 </div>
+
                 <div class="job">
-                    <h3>Business Analyst <span>20XX - 20XX</span></h3>
-                    <p>At Bronze Anvil Company</p>
+                    <h3>Analis Bisnis <span>20XX - 20XX</span></h3>
+                    <p><strong>Bronze Anvil Company</strong></p>
                     <ul>
-                        <li>Analyzed financial data and market trends.</li>
-                        <li>Conducted market research and feasibility studies.</li>
+                        <li>Menganalisis tren pasar dan data keuangan untuk mengidentifikasi peluang bisnis.</li>
+                        <li>Melakukan studi kelayakan dan riset pasar.</li>
                     </ul>
                 </div>
-            </div>
+            </section>
 
-            <div class="education">
-                <h2>Education</h2>
-                <p><strong>Barnes University</strong> <span>20XX - 20XX</span></p>
-                <p>Bachelor of Business Administration (BBA)</p>
-            </div>
-        </div>
+            <section class="education">
+                <h2>Pendidikan</h2>
+                <p><strong>Barnes University (20XX - 20XX)</strong></p>
+                <p>Gelar Sarjana Administrasi Bisnis (BBA)</p>
+            </section>
+        </main>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>

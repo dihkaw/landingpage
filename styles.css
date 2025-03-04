@@ -1,116 +1,95 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+/* Warna */
+:root {
+    --primary-color: #D9CBA7;
+    --secondary-color: #A68B5B;
+    --background-color: #F8F3E7;
+    --text-color: #5C3D2E;
+    --accent-color: #EAD7BB;
 }
 
 body {
-    background: #f4f1ec;
-    min-height: 100vh; /* Pastikan tidak terpotong */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-/* Tambahkan background pattern */
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("https://www.transparenttextures.com/patterns/white-diamond.png"), #f4f1ec;
-    opacity: 0.4;
-    z-index: -1;
+    font-family: 'Georgia', serif;
+    background: var(--background-color);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
 }
 
 .container {
     display: flex;
-    width: 900px;
-    background: white;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    max-width: 900px;
+    margin: 50px auto; /* Memberikan jarak atas dan bawah */
+    padding: 30px; /* Tambahkan padding untuk lebih nyaman */
+    background: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* KIRI - PROFIL */
-.left {
-    width: 35%;
-    background: #c79b53;
+
+.sidebar {
+    width: 30%;
+    background: var(--secondary-color);
     color: white;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    border-radius: 10px 0 0 10px;
 }
 
-.profile {
-    text-align: center;
+.sidebar h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
 }
 
 .profile img {
     width: 100px;
-    height: 100px;
     border-radius: 50%;
-    border: 4px solid white;
+    display: block;
+    margin: auto;
 }
 
-.contact, .skills, .certification {
+.profile h2 {
+    text-align: center;
+}
+
+.skills, .certifications {
     margin-top: 20px;
 }
 
-.contact h3, .skills h3, .certification h3 {
-    border-bottom: 2px solid white;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.skills ul, .certification ul {
+.skills ul, .certifications ul {
     list-style: none;
+    padding: 0;
 }
 
-.skills li, .certification li {
-    padding: 5px 0;
-}
-
-/* KANAN - INFORMASI */
-.right {
-    width: 65%;
-    padding: 30px;
-}
-
-h1 {
-    font-size: 32px;
-    font-weight: 600;
-}
-
-h3 {
-    color: #c79b53;
-}
-
-.summary {
-    background: rgba(196, 148, 69, 0.2);
-    padding: 10px;
+.skills li, .certifications li {
+    background: var(--accent-color);
+    color: var(--text-color);
+    padding: 5px;
+    margin-bottom: 5px;
     border-radius: 5px;
-    margin: 20px 0;
 }
 
-.experience h2, .education h2 {
-    margin-top: 20px;
-    color: #c79b53;
+.content {
+    width: 70%;
+    padding: 20px;
 }
 
-.job {
-    margin-top: 10px;
+.intro, .experience, .education {
+    margin-bottom: 20px;
 }
 
-.job h3 {
-    display: flex;
-    justify-content: space-between;
+h1, h2, h3 {
+    color: var(--text-color);
 }
 
-.job ul {
-    padding-left: 20px;
+button {
+    background: var(--secondary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: var(--text-color);
 }
