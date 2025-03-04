@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fffaf0;
+    color: #333;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background: linear-gradient(135deg, #fbd3e9 0%, #bb377d 100%);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero span {
+    color: #ffe5ec;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* PRODUK */
+.products {
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product {
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 15px 0;
+}
+
+.price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+.testimoni {
+    text-align: center;
+    padding: 50px;
+    background: #ffe5ec;
+}
+
+.testi-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testi {
+    width: 250px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* ORDER */
+.order {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #bb377d 0%, #fbd3e9 100%);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
