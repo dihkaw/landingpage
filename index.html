@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Pribadi - Nama Anda</title>
+    <title>CV - Nama Anda</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,32 +12,79 @@
 </head>
 <body>
 
-    <div class="sidebar">
-        <div class="menu">
-            <a href="#about"><i class="fas fa-user"></i> About Me</a>
-            <a href="#resume"><i class="fas fa-file-alt"></i> Resume</a>
-            <a href="#portfolio"><i class="fas fa-briefcase"></i> Works</a>
-            <a href="#blog"><i class="fas fa-blog"></i> Blog</a>
-            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
-        </div>
-    </div>
-
-    <div class="book">
-        <div class="page left">
+    <div class="container">
+        <!-- KIRI - PROFIL -->
+        <div class="left">
             <div class="profile">
-                <img src="https://source.unsplash.com/150x150/?person" alt="Foto Profil">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png" alt="Foto Profil">
                 <h2>Nama Anda</h2>
-                <p>Frontend & Backend Developer</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
+                <p>Business Consultant</p>
+            </div>
+
+            <div class="contact">
+                <h3>Contact Me</h3>
+                <p><i class="fas fa-phone"></i> (323) 302-9912</p>
+                <p><i class="fas fa-envelope"></i> info@jamesjohnson.site.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1676 Kimberly Drive, Chicago, IL</p>
+            </div>
+
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Strategic Planning</li>
+                    <li>Business Development</li>
+                    <li>Market Analysis</li>
+                    <li>Process Improvement</li>
+                    <li>Client Relationship Management</li>
+                </ul>
+            </div>
+
+            <div class="certification">
+                <h3>Certification</h3>
+                <ul>
+                    <li>Certified Management Consultant (CMC)</li>
+                    <li>Project Management Professional (PMP)</li>
+                    <li>Six Sigma Green Belt</li>
+                </ul>
             </div>
         </div>
 
-        <div class="page right">
-            <div class="about">
-                <h2>About Me</h2>
-                <p>Saya seorang pengembang web yang berfokus pada frontend dan backend. Saya memiliki pengalaman dalam HTML, CSS, JavaScript, dan framework modern seperti React da
+        <!-- KANAN - INFORMASI -->
+        <div class="right">
+            <h1>Nama <span style="color: #c79b53;">Anda</span></h1>
+            <h3>Business Consultant</h3>
+
+            <div class="summary">
+                <p>Dynamic and results-oriented Business Consultant with a proven track record of driving growth and optimizing operations for diverse businesses.</p>
+            </div>
+
+            <div class="experience">
+                <h2>Experience</h2>
+                <div class="job">
+                    <h3>Business Consultant <span>20XX - 20XX</span></h3>
+                    <p>At Kinsley Lyons Company</p>
+                    <ul>
+                        <li>Advised clients on strategic planning and business development.</li>
+                        <li>Provided financial management guidance.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Business Analyst <span>20XX - 20XX</span></h3>
+                    <p>At Bronze Anvil Company</p>
+                    <ul>
+                        <li>Analyzed financial data and market trends.</li>
+                        <li>Conducted market research and feasibility studies.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="education">
+                <h2>Education</h2>
+                <p><strong>Barnes University</strong> <span>20XX - 20XX</span></p>
+                <p>Bachelor of Business Administration (BBA)</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Website Loaded!");
+    console.log("Landing Page CV Loaded!");
 });
