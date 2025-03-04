@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan - Dika & Lala</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- MUSIC BACKGROUND -->
+    <audio id="weddingMusic" autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- HEADER / HERO SECTION -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>Dika & Lala</h1>
+            <p>Akan melangsungkan pernikahan pada</p>
+            <h2>10 Agustus 2025</h2>
+            <a href="#details" class="btn">Lihat Detail</a>
+        </div>
+    </section>
+
+    <!-- DETAIL ACARA -->
+    <section class="details" id="details">
+        <h2>Detail Acara</h2>
+        <p>Dengan segala hormat, kami mengundang Anda untuk hadir dalam acara pernikahan kami.</p>
+        <div class="event-info">
+            <h3>📍 Lokasi</h3>
+            <p>Hotel Grand Wedding, Jakarta</p>
+            <h3>🕘 Waktu</h3>
+            <p>10 Agustus 2025, Pukul 10.00 WIB</p>
+        </div>
+        <a href="#rsvp" class="btn">Konfirmasi Kehadiran</a>
+    </section>
+
+    <!-- GALLERY FOTO -->
+    <section class="gallery">
+        <h2>Momen Bahagia Kami</h2>
+        <div class="gallery-grid">
+            <img src="https://img.freepik.com/premium-vector/muslim-young-couple-wedding_175462-424.jpg" alt="Pasangan">
+            <img src="https://i.etsystatic.com/14527225/r/il/229baa/6193789603/il_570xN.6193789603_fwz2.jpg" alt="Cinta">
+            <img src="https://img.ltwebstatic.com/images3_spmp/2023/09/20/67/169519746335d7bbbc369cd7991862a51aae69d187_thumbnail_720x.jpg" alt="Cincin">
+        </div>
+    </section>
+
+    <!-- COUNTDOWN TIMER -->
+    <section class="countdown">
+        <h2>Menuju Hari Bahagia</h2>
+        <div id="timer"></div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp" id="rsvp">
+        <h2>Konfirmasi Kehadiran</h2>
+        <form id="rsvp-form">
+            <input type="text" placeholder="Nama Anda" required>
+            <select>
+                <option value="hadir">Saya akan hadir</option>
+                <option value="tidak">Maaf, saya tidak bisa hadir</option>
+            </select>
+            <button type="submit" class="btn">Kirim</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Dika & Lala Wedding | Made with ❤️</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* GENERAL STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #FAF7F2; /* Pearl White */
+    color: #2E3A59; /* Elegant Navy */
+    text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    background: url('https://source.unsplash.com/1200x600/?luxury,wedding,romantic') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(250, 247, 242, 0.7); /* Pearl White Transparan */
+}
+
+.hero-text {
+    position: relative;
+    color: #D4AF37; /* Champagne Gold */
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    color: #D4AF37; /* Champagne Gold */
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #2E3A59; /* Elegant Navy */
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #D4AF37; /* Champagne Gold */
+    color: #FAF7F2; /* Pearl White */
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background: #E5A4B1; /* Rose Quartz */
+    color: #2E3A59; /* Elegant Navy */
+}
+
+/* DETAIL ACARA */
+.details {
+    padding: 50px;
+    background: #F8E1DB; /* Soft Blush */
+    border-top: 5px solid #D4AF37; /* Champagne Gold */
+}
+
+.details h2 {
+    color: #D4AF37; /* Champagne Gold */
+    font-size: 2.5rem;
+}
+
+/* GALLERY */
+.gallery {
+    padding: 50px;
+    background: #FAF7F2; /* Pearl White */
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    border-radius: 10px;
+    border: 4px solid #D4AF37; /* Champagne Gold */
+}
+
+/* COUNTDOWN */
+.countdown {
+    padding: 50px;
+    background: #F8E1DB; /* Soft Blush */
+}
+
+#timer {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #D4AF37; /* Champagne Gold */
+}
+
+/* RSVP */
+.rsvp {
+    padding: 50px;
+    background: #FAF7F2; /* Pearl White */
+    color: #2E3A59; /* Elegant Navy */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form select {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #D4AF37; /* Champagne Gold */
+    border-radius: 5px;
+    background: #F8E1DB; /* Soft Blush */
+    color: #2E3A59;
+}
+
+form button {
+    background: #D4AF37; /* Champagne Gold */
+    color: #FAF7F2;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #E5A4B1; /* Rose Quartz */
+    color: #2E3A59; /* Elegant Navy */
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    background: #D4AF37; /* Champagne Gold */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
